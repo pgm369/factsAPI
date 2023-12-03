@@ -1,4 +1,4 @@
-// function retrieves a facts
+// function retrieves facts
 async function getFacts(){
   const limit = 3; //limits to three facts
   const api_endpoint = `https://api.api-ninjas.com/v1/facts?limit=${limit}`;
@@ -16,7 +16,5 @@ async function getFacts(){
 async function showFacts(){
   const factsResponse = await getFacts();
   const paragraphTag = document.getElementById("facts");
-  //paragraphTag.innerText = JSON.stringify(factsResponse);
   paragraphTag.innerText = factsResponse.map(fact => fact.fact).join('\n');
-  //API KEY: OAYHzh1ziw+jgCl+y5HDXA==nFs4joNeT4dQxDwj
 }
