@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: antiquewhite;
+  }
+
+button {
+    background-color: cornsilk;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+#facts {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: cornsilk;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
